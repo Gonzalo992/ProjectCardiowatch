@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #001219;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px 10px 30px;
+}
+
+.banner img{
+    width: 40%;
+}
+
+.selects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.selects #slct_year{
+    margin-right: 10px;
+}
+
+.selects #slct_disease{
+    width: 260px;
+}
+
+#slct_distrito{
+    width: 220px !important;
+    margin-left: 10px;
+}
+
+#lineal_graph{
+    width: 800px;
+}
+
+#circular_graph{
+    width: 400px;
+}
+.graph_top{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.my_map{
+    display: flex;
+    justify-content: center;
+}
+#map_graph{
+    width: 100%;
+}
+#circular_graph{
+    width: 100%;
+}
+.card-body{
+    width: max-content;
+}
+.graph_lineal{
+    width: 100%;
+}
+.figure_lineal{
+    width: 100%;
+}
+#lineal_graph{
+    width: 100%;
+}
+.gtitle{
+    font-weight: bold !important;
+}
+#submit-button-state{
+    margin-left: 8px;
+}
+.Select-clear-zone{
+    display: none !important;
+}
+#loading-output-1{
+    height: 100vh !important;
+}
+*[data-dash-is-loading="true"]{
+    overflow: hidden;
+}
+@media (max-width: 768px){
+    #submit-button-state{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #slct_year{
+        width: 100% !important;
+    }
+    #slct_disease{
+        width: 100% !important;
+    }
+    #slct_distrito{
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .Select-control{
+        width: 100% !important;
+    }
+    .cardline{
+        flex-direction: column !important;
+    }
+    .cardline .card2{
+        margin-top: 10px;
+    }
+    .carddata{
+        justify-content: center;
+    }
+  }
